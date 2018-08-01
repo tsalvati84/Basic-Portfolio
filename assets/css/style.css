@@ -1,0 +1,319 @@
+body {
+    width: 100%;
+    height: 600px;
+    background-color: #dddddd;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 80px;
+    width: 100%;
+    
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    border-style: none;
+    background-color: white;
+    padding: 15px;
+    float: right;
+    margin-right: 75px;
+    
+}
+
+
+.name {
+    border-style: none;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-left: 250px;
+    height: 80px;
+    width: 275px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 16px;
+    color: white;
+    float: left;
+}
+
+.line {
+    border-bottom: solid #dddddd;
+    width: 85%;
+    margin-left: 60px;
+      
+}
+
+
+section {
+    border-style: none;
+    width: 960px;
+    height: 450px;
+    background-color: white;
+    margin-left: 250px;
+    
+    
+}
+
+
+.title {
+    margin-left: 100px;
+    font-size: 32px;
+    font-family: Arial;
+    color: #4aaaa5;
+    position: relative;
+}
+
+
+img {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.p1 {
+    font-family: helvetica;
+    font-size: 16px;
+    position: relative;
+    float: right;
+    margin-top: 40px;
+    margin-right: 155px;
+    text-align: left;
+}
+
+.p2 {
+    font-family: helvetica;
+    font-size: 16px;
+   margin-left: 50px;
+}
+
+
+.smallfooter {
+    border-style: none;
+    background-color: #4aaaa5;
+    height: 2px;
+}
+.footer {
+    border-style: none;
+    background-color: #666666;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+
+}
+.name2 {
+    border-style: none;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-left: 300px;
+    height: 80px;
+    width: 225px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 16px;
+    color: white;
+}
+
+.section2 {
+    border-style: none;
+    width: 720px;
+    height: 375px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 300px;
+    
+}
+.title2 {
+    margin-left: 75px;
+    font-size: 32px;
+    font-family: Arial;
+    color: #4aaaa5;
+}
+
+.line2 {
+    border-bottom: solid #dddddd;
+    width: 90%;
+    margin-left: 30px;
+}
+
+input {
+    width: 80%;
+    margin-left: 25px;
+    
+}
+
+.field1 {
+    margin-left: 25px;
+    
+}
+
+.field2 {
+    margin-left: 25px;
+}
+
+textarea {
+    height: 100px;
+    width: 555px;
+    margin-left: 50px;
+}
+.text1 {
+    margin-left: 50px;
+   
+}
+.text2 {
+    margin-left: 50px;
+}
+
+.text3 {
+    margin-left: 50px;
+}
+
+button  {
+    border-style: none;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 90px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.footer2 {
+    border-style: none;
+    background-color: #666666;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section3 {
+    border-style: none;
+    width: 960px;
+    height: 850px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.hangman {
+    border-style: none;
+    background-color: #666666;
+    padding: 50px;
+    height: 75px;
+    width: 100px;
+    margin-left: 200px;
+    position: absolute;
+    
+    
+}
+
+.hangman2 {
+    position: relative;
+    width: 100%;
+    top: 35px;  
+    border-style: none;
+    background-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+
+}
+
+
+.RPG {
+    border-style: none;
+    background-color: #666666;
+    padding: 50px;
+    height: 75px;
+    width: 100px;
+    margin-left: 500px; 
+    
+    
+    
+}
+
+.rpg2 {
+    position: relative;
+    width: 100%;
+    top: 35px;  
+    border-style: none;
+    background-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.Trivia {
+    border-style: none;
+    background-color: #666666;
+    padding: 50px;
+    height: 75px;
+    width: 100px;
+    margin-left: 200px;
+    position: absolute;
+
+    
+    
+    
+}
+
+.trivia2 {
+    position: relative;
+    width: 100%;
+    top: 35px;  
+    border-style: none;
+    background-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+}
+
+.Rutgers {
+    border-style: none;
+    background-color: #666666;
+    padding: 50px;
+    height: 75px;
+    width: 100px;
+    margin-left: 500px;
+}
+
+.rutgers2 {
+    position: relative;
+    width: 100%;
+    top: 25px;  
+    border-style: none;
+    background-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+}
+
+.rps {
+    border-style: none;
+    background-color: #666666;
+    padding: 50px;
+    height: 75px;
+    width: 100px;
+    margin-left: 200px;
+    position: absolute;
+    
+    
+}
+
+.rps2 {
+    position: relative;
+    width: 100%;
+    height:75px; 
+    border-style: none;
+    background-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.footer3 {
+    border-style: none;
+    background-color: #666666;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin-top: 60px;
+}
