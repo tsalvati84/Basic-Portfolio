@@ -19,7 +19,7 @@ li {
     background-color: white;
     padding: 15px;
     float: right;
-    margin-right: 75px;
+    margin-right: 100px;
     
 }
 
@@ -76,7 +76,7 @@ img {
     font-size: 16px;
     position: relative;
     float: right;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 155px;
     text-align: left;
 }
@@ -107,7 +107,7 @@ img {
     position: absolute;
     margin-left: 300px;
     height: 80px;
-    width: 225px;
+    width: 275px;
     text-align: center;
     font-family: helvetica;
     font-size: 16px;
@@ -185,6 +185,18 @@ button  {
     height: 35px;
     text-align: center;
     margin-top: 60px;
+}
+.name3 {
+    border-style: none;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-left: 200px;
+    height: 80px;
+    width: 275px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 16px;
+    color: white;
 }
 
 .section3 {
