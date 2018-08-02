@@ -2,25 +2,29 @@ body {
     width: 100%;
     height: 600px;
     background-color: #dddddd;
+    margin: 0px;
 }
 
 .header {
     background-color: #ffffff;
-    height: 80px;
+    height: 70px;
     width: 100%;
-    
 }
 
 
 li {
-    list-style-type: none;
     display: inline-block;
-    border-style: none;
-    background-color: white;
-    padding: 15px;
+    background-color: #ffffff;
     float: right;
-    margin-right: 100px;
-    
+    padding-right: 100px;
+    margin-top:35px;
+}
+.linkstyle {
+    border-left-style: solid;
+    border-right-style: solid; 
+    border-color: #868585;
+    padding-right: 51px;
+    padding-left:51px;
 }
 
 
@@ -29,20 +33,18 @@ li {
     background-color: #4aaaa5;
     position: absolute;
     margin-left: 250px;
-    height: 80px;
+    height: 70px;
     width: 275px;
     text-align: center;
     font-family: helvetica;
     font-size: 16px;
     color: white;
-    float: left;
 }
 
 .line {
     border-bottom: solid #dddddd;
     width: 85%;
     margin-left: 60px;
-      
 }
 
 
@@ -52,8 +54,6 @@ section {
     height: 450px;
     background-color: white;
     margin-left: 250px;
-    
-    
 }
 
 
@@ -99,14 +99,14 @@ img {
     width: 100%;
     height: 35px;
     text-align: center;
-
+    margin: 0px;
 }
 .name2 {
     border-style: none;
     background-color: #4aaaa5;
     position: absolute;
     margin-left: 300px;
-    height: 80px;
+    height: 70px;
     width: 275px;
     text-align: center;
     font-family: helvetica;
@@ -114,14 +114,21 @@ img {
     color: white;
 }
 
+.linkstyle2 {
+    border-left-style: solid;
+    border-right-style: solid; 
+    border-color: #868585;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
 .section2 {
     border-style: none;
     width: 720px;
-    height: 375px;
+    height: 400px;
     background-color: white;
     margin-top: 25px;
     margin-left: 300px;
-    
 }
 .title2 {
     margin-left: 75px;
@@ -139,7 +146,6 @@ img {
 input {
     width: 80%;
     margin-left: 25px;
-    
 }
 
 .field1 {
@@ -191,7 +197,7 @@ button  {
     background-color: #4aaaa5;
     position: absolute;
     margin-left: 200px;
-    height: 80px;
+    height: 70px;
     width: 275px;
     text-align: center;
     font-family: helvetica;
@@ -199,6 +205,13 @@ button  {
     color: white;
 }
 
+.linkstyle3 {
+    border-left-style: solid;
+    border-right-style: solid; 
+    border-color: #868585;
+    padding-left: 51px;
+    padding-right: 51px;
+}
 .section3 {
     border-style: none;
     width: 960px;
@@ -208,117 +221,78 @@ button  {
     margin-left: 200px;
 }
 
-.hangman {
-    border-style: none;
-    background-color: #666666;
-    padding: 50px;
-    height: 75px;
-    width: 100px;
-    margin-left: 200px;
+.container {
+    position: relative;
+    margin-left: 175px;
+    
+}
+
+.centered {
+    border-right: solid black;
+    border-left: solid black;
     position: absolute;
-    
-    
-}
-
-.hangman2 {
-    position: relative;
-    width: 100%;
-    top: 35px;  
-    border-style: none;
-    background-color: #4aaaa5;
-    padding: 5px;
+    bottom: 25px;
+    width: 220px;
+    margin-left: 50px;
     text-align: center;
+    background-color: rgba(199, 193, 193, 0.815);
+    color: black;
 
-}
-
-
-.RPG {
-    border-style: none;
-    background-color: #666666;
-    padding: 50px;
-    height: 75px;
-    width: 100px;
-    margin-left: 500px; 
-    
-    
     
 }
-
-.rpg2 {
-    position: relative;
-    width: 100%;
-    top: 35px;  
-    border-style: none;
-    background-color: #4aaaa5;
-    padding: 5px;
-    text-align: center;
-
-}
-
-.Trivia {
-    border-style: none;
-    background-color: #666666;
-    padding: 50px;
-    height: 75px;
-    width: 100px;
-    margin-left: 200px;
+.centered2 {
+    border-right: solid black;
+    border-left: solid black;
     position: absolute;
-
-    
-    
-    
-}
-
-.trivia2 {
-    position: relative;
-    width: 100%;
-    top: 35px;  
-    border-style: none;
-    background-color: #4aaaa5;
-    padding: 5px;
+    bottom: 25px;
+    width: 220px;
+    margin-left: 330px; 
     text-align: center;
+    background-color: rgba(199, 193, 193, 0.815);
+    color: black;
 }
-
-.Rutgers {
-    border-style: none;
-    background-color: #666666;
-    padding: 50px;
-    height: 75px;
-    width: 100px;
-    margin-left: 500px;
-}
-
-.rutgers2 {
+.container2 {
     position: relative;
-    width: 100%;
-    top: 25px;  
-    border-style: none;
-    background-color: #4aaaa5;
-    padding: 5px;
-    text-align: center;
+    margin-left: 175px;
 }
-
-.rps {
-    border-style: none;
-    background-color: #666666;
-    padding: 50px;
-    height: 75px;
-    width: 100px;
-    margin-left: 200px;
+.centered3 {
+    border-right: solid black;
+    border-left: solid black;
     position: absolute;
-    
-    
+    bottom: 25px;
+    width: 220px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgba(199, 193, 193, 0.815);
+    color: black;
 }
 
-.rps2 {
-    position: relative;
-    width: 100%;
-    height:75px; 
-    border-style: none;
-    background-color: #4aaaa5;
-    padding: 5px;
+.centered4 {
+    border-right: solid black;
+    border-left: solid black;
+    position: absolute;
+    bottom: 25px;
+    width: 220px;
+    margin-left: 330px; 
     text-align: center;
-
+    background-color: rgba(199, 193, 193, 0.815);
+    color: black;
+}
+.container3 {
+    position: relative;
+    margin-left: 175px;
+    
+}
+.centered5 {
+    border-right: solid black;
+    border-left: solid black;
+    position: absolute;
+    bottom: 0px;
+    width: 500px;
+    margin-left: 49px;
+    text-align: center;
+    background-color: rgba(199, 193, 193, 0.815);
+    color: black;
 }
 
 .footer3 {
@@ -327,5 +301,6 @@ button  {
     width: 100%;
     height: 35px;
     text-align: center;
-    margin-top: 60px;
+    margin: 0px;
 }
+
