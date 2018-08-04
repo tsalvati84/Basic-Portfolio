@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-color: #dddddd;
     margin: 0px;
 }
@@ -87,12 +87,6 @@ img {
    margin-left: 50px;
 }
 
-
-.smallfooter {
-    border-style: none;
-    background-color: #4aaaa5;
-    height: 2px;
-}
 .footer {
     border-style: none;
     background-color: #666666;
@@ -223,7 +217,7 @@ button  {
 
 .container {
     position: relative;
-    margin-left: 175px;
+    margin-left: 50px;
     
 }
 
@@ -253,7 +247,7 @@ button  {
 }
 .container2 {
     position: relative;
-    margin-left: 175px;
+    margin-left: 50px;
 }
 .centered3 {
     border-right: solid black;
@@ -280,7 +274,7 @@ button  {
 }
 .container3 {
     position: relative;
-    margin-left: 175px;
+    margin-left: 50px;
     
 }
 .centered5 {
@@ -302,5 +296,6 @@ button  {
     height: 35px;
     text-align: center;
     margin: 0px;
+    
 }
 
